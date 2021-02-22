@@ -29,7 +29,7 @@ firmware-load-$(PLATFORM):
 	@echo "Unsupported."
 	@false
 
-firmware-flash-$(PLATFORM): firmwage-flash-py
+firmware-flash-$(PLATFORM): firmware-flash-py
 	@true
 
 firmware-connect-$(PLATFORM):
